@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seungah's Mall</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <div class = "header"><h1>Welcome to Seungah's Mall Database!</h1><img src="mall.jpg" alt="Mall"></div>
+
+    <div class="container">
+  <p> <a href="http://localhost:3000/customers">Complete Customers Details</a></p> </div>
+
+  <div class="row">
+    <div class="column">
+      <form id="customerForm">
+        <p>Submit CustomerID for customer details [1-10]</p>
+        <input type="text" id="customerIdInput" placeholder="Customer ID" />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="column2">
+      <form id="customerOrdersForm"> 
+        <p>Submit CustomerID for customer's orders details [1-10]</p>
+        <input type="text" id="customerIdInput2" placeholder="Customer ID" />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="column3">
+      <form id="orderForm">
+        <p>Submit CustomerID and orderID for the order details [1-10],[1-32]</p>
+        <input type="text" id="customerIdInput3" placeholder="Customer ID" />
+        <input type="text" id="orderIdInput" placeholder="Order ID" />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+      
+    
+    <div class="footer">
+        <p>Created by Seungah Choi © 2023</p>
+      </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    const api = axios.create({
+      baseURL: 'http://localhost:3000' 
+    });
+  
+    const setCustomer = (customerData) => {
+     
+      console.log(customerData); 
+    };
+  
+    const setOrder = (orderData) => {
+      
+      console.log(orderData); 
+    };
+  
+    const fetchCustomerDetails = async (event) => {
+      event.preventDefault(); 
+  
+      const customerId = document.getElementById('customerIdInput').value;
+      const url = `http://localhost:3000/customers/${customerId}`;
+  
+      try {
+        const response = await api.get(url);
+        setCustomer(response.data);
+        window.location.href = url; 
+      } catch (error) {
+        console.error(`Error fetching customer details for ID ${customerId}:`, error);
+      }
+    };
+
+   
+    const fetchOrders = async (event) => {
+      event.preventDefault(); 
+  
+      const customerId = document.getElementById('customerIdInput2').value;
+      const url = `http://localhost:3000/customers/${customerId}/orders`;
+  
+      try {
+        const response = await api.get(url);
+        setCustomer(response.data);
+        window.location.href = url; 
+      } catch (error) {
+        console.error(`Error fetching customer details for ID ${customerId}:`, error);
+    }
+};
+  
+    const fetchOrderDetails = async (event) => {
+      event.preventDefault(); 
+  
+      const customerId = document.getElementById('customerIdInput3').value;
+      const orderId = document.getElementById('orderIdInput').value;
+      const url = `http://localhost:3000/customers/${customerId}/orders/${orderId}`;
+  
+      try {
+        const response = await api.get(url);
+        setOrder(response.data);
+        window.location.href = url; 
+      } catch (error) {
+        console.error(`Error fetching order details for ID ${orderId}:`, error);
+      }
+    };
+  
+
+  
+    document.getElementById('customerForm').addEventListener('submit', fetchCustomerDetails);
+    document.getElementById('orderForm').addEventListener('submit', fetchOrderDetails);
+    document.getElementById('customerOrdersForm').addEventListener('submit',fetchOrders);
+  </script>
+  
+</body>
+</html>
+

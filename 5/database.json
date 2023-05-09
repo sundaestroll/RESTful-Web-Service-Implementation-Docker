@@ -1,0 +1,192 @@
+{
+   "customers": [
+     {
+       "customer_id": "1",
+       "customer": "Tom",
+       "orders": [
+         {
+           "order_id": "1",
+           "order": "Salt, Pepper, Steak, Milk, Wine, Roses"
+         },
+         {
+            "order_id": "2",
+            "order": "Pajamas, Tootbush, Sneakers, DietCoke, Watermellon, Toilet Paper"
+          },
+          {
+            "order_id": "3",
+            "order": "Sugar, Baking Soda, Mentos, Mountain Dew, Gaming mouse, Water, Tonic Water, Coasters, Stickers"
+          }
+       ]
+     },
+     {
+       "customer_id": "2",
+       "customer": "Jack",
+       "orders": [
+         {
+            "order_id": "4",
+            "order": "Eggs, Bread, Rice, Pasta, Chicken, Apples, Bananas, Spinach"
+          },
+          {
+             "order_id": "5",
+             "order": "Tomatoes, Potatoes, Cheese, Yogurt, Cereal, Butter, Olive oil, Orange juice, Coffee, Sugar, Salt"
+           },
+           {
+             "order_id": "6",
+             "order": "Shampoo, soap, toothpaste, T-shirts, jeans, socks"
+           }
+       ]
+     },
+     {
+       "customer_id": "3",
+       "customer": "James",
+       "orders": [
+         {
+            "order_id": "7",
+            "order": "Office supplies, baby wipes, frozen chicken, Candy, kitchen appliances, canned soup, Medicated shampoo, cleaning supplies, paper plates"
+          },
+          {
+             "order_id": "8",
+             "order": "Ground beef, picture frames, snacks, Cereal bars, technology, gardening supplies, Bottled water, clothing, frozen pizza, Cosmetics, toilet paper, chipspper"
+           },
+           {
+             "order_id": "9",
+             "order": "Granola bars, home decor, stationery, Napkins, frozen vegetables, skincare products, Protein bars, window cleaner, gardening supplies, Frozen fish, "
+           }
+       ]
+     },
+     {
+       "customer_id": "4",
+       "customer": "Robin",
+       "orders": [
+         {
+            "order_id": "10",
+            "order": "soda, makeup, Crackers, baby diapers, cleaning supplies, Kitchen utensils, chocolate, office supplies, Bottled juice, candles, frozen fruit"
+          },
+          {
+             "order_id": "11",
+             "order": "Lightweight camping chair, portable water filter, camp pillow, Hiking socks, quick-drying pants, moisture-wicking shirt, Walking stick, gaiters, mosquito net"
+           },
+           {
+             "order_id": "12",
+             "order": "Laundry detergent, batteries, fresh bread, Canned tomatoes, headphones, toothpaste, Salad dressing, picture frames, pet food, Cereal, cleaning supplies, socks"
+           },
+           {
+            "order_id": "13",
+            "order": "Pasta, smartphone accessories, hand sanitizer, Frozen berries, light bulbs, body lotion, Peanut butter, notebooks, laundry softener, Energy drinks, kitchen gadgets, sunscreen, Oatmeal, phone chargers, hairbrush"
+          }
+       ]
+     },
+     {
+       "customer_id": "5",
+       "customer": "Tommy",
+       "orders": [
+         {
+           "order_id": "14",
+           "order": "Camping hammock, campfire grill, campfire tripod, Hiking snacks, energy bars, dehydrated meals, Hiking gloves, sunglasses, hat, Hiking guidebook, trail journal, portable camping shower"
+         }
+       ]
+     },
+     {
+       "customer_id": "6",
+       "customer": "Emma",
+       "orders": [
+         {
+           "order_id": "15",
+           "order": "Hiking boots, backpack, compass, Water bottle, trail mix, map, Trekking poles, waterproof jacket, headlamp, First aid kit, sunscreen, insect repellent, Multi-tool, portable stove, tent, Sleeping bag, camping mat, campfire cooking set, Binoculars, camera, hiking hat, GPS device, whistle, survival blanket"
+         },
+         {
+            "order_id": "16",
+            "order": "Toilet cleaner, canned beans, gardening tools"
+         },
+          {
+             "order_id": "17",
+             "order": "Rice, headphones, dish soap, Frozen desserts, picture frames, shaving cream, Granola, stationery, air freshener, Bread, USB cables, vitamins, Frozen vegetables, clothing hangers, facial cleanser, Snack bars, batteries, trash bags"
+            },
+           {
+             "order_id": "18",
+             "order": "Big-screen TV, home theater system, comfortable couch, Popcorn machine, popcorn kernels, popcorn bowls, Movie posters, framed movie prints, decorative film reels"
+           }
+       ]
+     },
+     {
+       "customer_id": "7",
+       "customer": "Jose",
+       "orders": [
+         {
+            "order_id": "19",
+            "order": "DVD or Blu-ray collection, movie streaming subscriptions, Comfy blankets, throw pillows, bean bags, Movie-themed t-shirts, hoodies, and pajamas, Movie theater-style popcorn buckets, soda cups, and candy boxes"
+          },
+          {
+             "order_id": "20",
+             "order": "Sleeping bag, camping mat, campfire cooking set, Binoculars, camera, hiking hat, GPS device, whistle, survival blanket, Lightweight camping chair, portable water filter, camp pillow"
+           }
+       ]
+     },
+     {
+       "customer_id": "8",
+       "customer": "Timmothee",
+       "orders": [
+         {
+            "order_id": "21",
+            "order": "Wine, Cheese"
+          },
+          {
+             "order_id": "22",
+             "order": "Vintage clothing pieces,Classic film camera and film rolls, Indie film collection, guitar"
+           },
+           {
+             "order_id": "23",
+             "order": "Distressed denim jeans, Graphic band T-shirts, Colorful beanie hat, Watercolor paint set, Sketchbook, Oil paint brushes,Canvas panels,Acrylic paint set"
+           },{
+            "order_id": "24",
+            "order": " 35mm film camera, Tri-pod stand, Film development kit, Cinematic lenses, Camera strap"
+          },
+          {
+             "order_id": "25",
+             "order": "Vinyl record player, Indie rock vinyl records, Jazz classics vinyl records, Folk and acoustic vinyl records, Soul and R&B vinyl records"
+           },
+           {
+             "order_id": "26",
+             "order": "Vintage sunglasses, Colorful beaded bracelets, Silver rings, Patterned socks, Embroidered patches"
+           }
+       ]
+     },
+     {
+       "customer_id": "9",
+       "customer": "Miley",
+       "orders": [
+         {
+           "order_id": "27",
+           "order": " Vintage suitcases, Polaroid camera, Travel journals,Passport holder, World map wall art"
+         },
+         {
+            "order_id": "28",
+            "order": "Bold lipstick shades, Glitter eyeshadow, Feather eyelashes, Temporary tattoos, Nail art stickers"
+          },
+          {
+             "order_id": "29",
+             "order": "Water, Cucumber, Lemon"
+           },
+           {
+             "order_id": "30",
+             "order": " Electric guitar, Microphone, DJ equipment, Vinyl records"
+           }
+       ]
+     },
+     {
+       "customer_id": "10",
+       "customer": "Kendall",
+       "orders": [
+         {
+           "order_id": "31",
+           "order": "Laptop, Leather jacket, Champagne, Running shoes, Sunglasses, Coffee machine, Notebook, Headphones, Suit, Protein bars"
+         },
+         {
+            "order_id": "32",
+            "order": "Watch, Camera, Cocktail shaker, Dumbbells, Wallet, Bluetooth speaker, Art supplies, Pocket knife, Designer cologne, Portable charger"
+          }
+       ]
+     }
+   ]
+ }
+ 
